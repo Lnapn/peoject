@@ -1,0 +1,186 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background-color:#f5f5f7;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #FFFFFF;
+}
+.box{
+	margin: auto;
+	width: 1800px;
+	height: 950px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+	overflow: hidden;
+}
+.left{
+	float: left;
+	background-color: beige;
+	width: 220px;
+	height: 100%;
+	margin-right: 0px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.right{
+	float: left;
+	width: 1580px;
+	height: 100%;
+	color: #007AFF;
+	overflow: hidden;
+}
+.nav{
+	height: 75px;
+	overflow: hidden;
+	background-color: beige;
+	border-radius: 10px;
+	margin-left: 5px;
+	width: 1580px;
+}
+.part1{
+	height: 90px;
+	float: left;
+}
+.part2{
+	height: 90px;
+	float: right;
+}
+.detail{
+	width: 1580px;
+	height: 810px;
+	border-radius: 10px ;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?rph07n');
+  src:  url('../fonts/icomoon.eot?rph07n#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?rph07n') format('truetype'),
+    url('../fonts/icomoon.woff?rph07n') format('woff'),
+    url('../fonts/icomoon.svg?rph07n#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+div{
+	font-family: 'icomoon';
+	color: #000000;
+	font-size: 30px;
+}
+.pic{
+	float: left;
+	border: #000000;
+	margin-top: 20px;
+	margin-left: -40px;
+	
+}
+.pic2{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.pic3{
+	float: right;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.search{
+	margin-top: 13px;
+	margin-left: 3px;
+	height: 45px;
+	width: 350px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	text-indent: 20px;
+	float: left;
+	font-size: 20px;
+}
+.topic{
+	height: 75px;
+}
+.pic1{
+	float: left;
+	margin-top: 20px;
+	margin-left: 7px;
+}
+.title{
+	float: left;
+	margin-left: 3px;
+	margin-top: 22px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.head{
+	background-image: url(img/people.jpg);
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	margin-left: 10px;
+	float: left;
+}
+.wel{
+	float: left;
+	margin-left: 20px;
+	width: 60px;
+}
+.welfont1{
+	font-size: 17px;
+	color: #A9A9A9;
+	margin-top: 3px;
+}
+.welfont2{
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+.people{
+	overflow: hidden;
+}
+.function{
+	margin-top: 20px;
+}
+.fun{
+	display: block;
+	font-size: 20px;
+	color: darkgrey;
+	text-decoration: none;
+	height: 60px;
+	padding-left: 90px;
+	padding-top: 30px;
+}
+.bottom{
+	border-radius: 10;
+	margin-top: -52px;
+	background-color: beige;
+	width: 1800px;
+	height: 60px;
+	float: left
+	
+}
+.copyright{
+	letter-spacing: 5px;
+	margin-left: 230px;
+	color: #A9A9A9;
+	font-size: 12px;
+	margin-top: 5px;
+}
+hr{
+	margin-left: 230px;
+	color: #A9A9A9;
+	width: 1800px;
+	margin-top: 2px;
+	margin-bottom: -3px;
+}

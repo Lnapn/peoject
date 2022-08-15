@@ -1,0 +1,2 @@
+INSERT INTO `family` VALUES (1, 'Lnaje', '1234567', '12323123121', '25');
+INSERT INTO `family` VALUES (3, 'Lnapn', '1234567', '13124324342', '21');
